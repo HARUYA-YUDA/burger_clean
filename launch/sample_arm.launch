@@ -1,0 +1,6 @@
+<launch>
+  <group ns="sample_arm">
+    <node name="bringup" type="burger_arm_bringup" pkg="burger_arm_bringup"/>
+    <node name="sample" type="sample_arm" pkg="burger_arm_bringup"/>
+  </group>
+</launch>
